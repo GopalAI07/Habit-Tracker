@@ -11,5 +11,5 @@ export default defineConfig({
     babel({ presets: [reactCompilerPreset()] }),
     tailwindcss(),
   ],
-  base: process.env.VITE_BASE_PATH || "/Habit-Tracker/tree/master"
+  base: process.env.VITE_BASE_PATH || "/Habit-Tracker"
 })
